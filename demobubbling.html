@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Demonstrating bubbling</title>
+    <script type="text/javascript">
+        function bodyAction() {
+            alert("Body Action");
+        }
+        function buttonAction(evt){
+            alert("Button action");
+           
+
+        }
+    </script>
+</head>
+<body onclick="bodyAction(event);">
+
+<button onclick="buttonAction(event);">Тисни!</button>
+</body>
+</html>
